@@ -13,4 +13,12 @@ input{
 
 #container{
     font-size: 20px;
+    width: 70%;
+    margin: auto;
+}
+#container > div {
+    border: solid 0.1rem blue;
+    margin-top: 0.2rem;
+    background-color: rgb(255, 196, 238);
+
 }

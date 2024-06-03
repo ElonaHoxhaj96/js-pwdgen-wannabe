@@ -18,7 +18,7 @@ document.getElementById( 'fav_color' ).innerHTML = 'Quale è il tuo colore prefe
 //stabilizzazione numero;
 const numerofisso = 23;
 
-//fomul of password;
+//fomula of password;
 let result = user_name+user_surname+favorite_color+numerofisso;
 
 console.log('Password: '+ result)
