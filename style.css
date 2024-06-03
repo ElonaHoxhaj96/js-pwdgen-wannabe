@@ -16,6 +16,7 @@ input{
     width: 70%;
     margin: auto;
 }
+
 #container > div {
     border: solid 0.1rem blue;
     margin-top: 0.2rem;

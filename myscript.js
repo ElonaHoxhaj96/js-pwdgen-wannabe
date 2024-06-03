@@ -1,7 +1,7 @@
 //Welcome page; 
 document.getElementById( 'title' ).innerHTML ='Welcome to Boolean';
 
-// assegnazione valori let
+// assignment of values ​​to let
 let user_name = prompt ('Nome');
 let user_surname = prompt('Cognome');
 let favorite_color = prompt ('Colore Preferito');
@@ -15,7 +15,7 @@ document.getElementById( 'surname' ).innerHTML = 'Inserisci il tuo cognome: ' + 
 //ask the user to enter their own favorite colour;
 document.getElementById( 'fav_color' ).innerHTML = 'Quale è il tuo colore preferito? ' + favorite_color;
 
-//stabilizzazione numero;
+//fixing a number;
 const numerofisso = 23;
 
 //fomula of password;
