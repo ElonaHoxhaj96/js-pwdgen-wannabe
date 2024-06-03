@@ -10,12 +10,18 @@ let favorite_color = prompt ('Colore Preferito');
 document.getElementById( 'name' ).innerHTML = 'Inserisci il tuo nome: ' + user_name;
 
 //ask the user to enter their own surname; 
-document.getElementById( 'surname' ).innerHTML = 'Inserisci il tuo cognome' + user_surname;
+document.getElementById( 'surname' ).innerHTML = 'Inserisci il tuo cognome: ' + user_surname;
 
 //ask the user to enter their own favorite colour;
-document.getElementById( 'fav_color' ).innerHTML = 'Quale è il tuo colore preferito?' + favorite_color;
+document.getElementById( 'fav_color' ).innerHTML = 'Quale è il tuo colore preferito? ' + favorite_color;
 
-//
+//stabilizzazione numero;
+const numerofisso = 23;
 
+//fomul of password;
+let result = user_name+user_surname+favorite_color+numerofisso;
 
+console.log('Password: '+ result)
+
+document.getElementById ('password').innerHTML = ('Questa è la tua password: '+ result)
 
